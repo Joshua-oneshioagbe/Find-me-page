@@ -1,0 +1,75 @@
+body {
+  font-family: 'poppins', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+header {
+  background-color: #000828;
+  color: #fff;
+  text-align: center;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-photo img {
+  margin-top: 100px;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.profile-photo img:hover {
+  transform: scale(1.1);
+}
+
+.about-me {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-section {
+  background-color: #fff;
+  text-align: center;
+  padding: 2em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.social-link {
+  margin: 0 10px;
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-link:hover {
+  transform: scale(1.2);
+}
+
+.whatsapp img,
+.instagram img,
+.pinterest img {
+  width: 40px;
+  height: 40px;
+}
+
+footer {
+  background-color: #000828;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}
